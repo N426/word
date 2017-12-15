@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+}
+#box{
+    width: 900px;
+    height: 500px;
+    box-sizing: border-box;
+    /*border: 1px solid #000;*/
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+    /* background: url("img/广告.jpg") no-repeat center; */
+    background-size: cover;
+}
+#box img{
+    position: absolute;
+}
+.live{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    color: red;
+    background: url("../img/广告.jpg") no-repeat center;
+    background-size: cover;
+}
+.fengshu{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    color: red;
+    background: url("../img/广告.jpg") no-repeat center;
+    background-size: cover;
+}
+.guanka{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    position: absolute;
+    bottom: 5%;
+    left: 70%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    color: red;
+    background: url("../img/广告.jpg") no-repeat center;
+    background-size: cover;
+}
+body{
+    background: url("../img/背景.jpg") no-repeat center;
+}
